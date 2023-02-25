@@ -1,0 +1,49 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-right: none;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 18px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px;
+    font-size: 18px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  li:last-child {
+    border-bottom: none;
+  }
+  
